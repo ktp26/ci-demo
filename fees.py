@@ -14,7 +14,7 @@ def overdue_fine(days_late):
     if days_late <= 0:
         return 0
     total = 0
-    return min(days_late * FINE_PER_DAY, MAX_FINE)
+    return min(days_late * FINE_PER_DAY, MAX_FINE)    
 
 
 def summarize(records):
